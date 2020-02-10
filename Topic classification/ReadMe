@@ -1,7 +1,7 @@
 
 The model.py contains two models: 
-1. the single channel 
-2. the multi-channel model. 
+1. the single channel model
+2. the multi-channel model
 
 The runner.py offers two optional kernel sizes:
 1. [3,4,5]
