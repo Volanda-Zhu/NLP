@@ -7,6 +7,6 @@ The runner.py offers two optional kernal sizes:
 1. [3,4,5]
 2. [3,6,9]
 
-The current model is a multi-channel model with the filter windows of [3,6,9].
+The current model is a multi-channel model with the filter windows of [3,6,9]. Please excecute the runner.py file to run the model.
 To implement a single channel model, please comment line 21,24,43-49 and uncomment 50-52.
 To implement [3,4,5] filter size,please comment line 115 and uncomment line 116.
