@@ -112,6 +112,7 @@ if __name__ == "__main__":
     padding = 0
     keep_prob = 0.5
     kernel_size = [3, 6, 9]
+    #kernel_size = [3, 4, 5]
     model = CNN(num_class, out_channels, kernel_size, stride, padding, keep_prob, vocab_size, embed_len, embedding_matrix)
     loss_fn = F.cross_entropy
     criterion = nn.CrossEntropyLoss()
